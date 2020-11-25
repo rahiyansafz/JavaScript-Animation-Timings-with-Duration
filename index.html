@@ -1,0 +1,25 @@
+
+
+<div class="road">
+  <div class="car"></div>
+</div>
+<div id="message">&nbsp;</div>
+<pre>animate({
+  duration: <b id="a-d">2000</b>,
+  timing: '<b id="a-t">linear</b>',
+  draw: pct => carEl.style.left = pct * (roadEl.offsetWidth - 100) + 'px'
+}).then(showDone)</pre>
+
+<h3>Duration</h3>
+<div class="duration">
+  <input type="range" value="2000"
+    step="50" min="100" max="3000" 
+    onchange="setDuration(this.value)" />
+  <span id="duration">2000</duration>
+</div>
+
+<h3>Timings</h3> 
+<div class="timings"></div>
+
+
+

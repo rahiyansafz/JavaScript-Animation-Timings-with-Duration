@@ -1,0 +1,20 @@
+.road {
+  background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/03/89/96/1857db4d821a108.jpg);
+  background-size: contain;
+  height: 100px;
+}
+
+.car {
+  position: relative;
+  background: url(https://image.flaticon.com/icons/png/128/171/171239.png) no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+}
+.timings {
+  display: flex;
+  flex-wrap: wrap;
+}
+.timings div {
+  min-width: 120px;
+}
